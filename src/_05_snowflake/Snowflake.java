@@ -6,14 +6,17 @@ package _05_snowflake;
 
 import java.awt.Color;
 
+import org.jointheleague.graphical.robot.Robot;
+
 
 public class Snowflake {
 	
 	public static void main(String[] args) {
 
 		// #1. Make a new Robot
-
-
+Robot squid = new Robot();
+squid.changeRobot("https://en.wikipedia.org/wiki/Squidward_Tentacles#/media/File:Squidward_Tentacles.svg");
+squid.miniaturize();
 		// #2. Set your robot’s position to x=300 and y=300
 
 
