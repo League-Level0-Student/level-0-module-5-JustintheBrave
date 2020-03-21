@@ -56,10 +56,28 @@ public class ForLoopGauntlet {
 			}
 			
 		//3x3 123456789
-			for (int e = 0; e < ; e++) {
-				
+		for (int r = 1; r < 8; r=r+3) {
+			for (int e = r; e < r+3; e++) {
+				System.out.print(e + " ");
 			}
-			
+			System.out.println();
+		}	
+		
+		// 100 in 10x10
+		for (int z = 1; z < 101; z=z+10) {
+			for (int y = z; y < z+10; y++) {
+				System.out.print(y + " ");
+			}
+			System.out.println();
+		}
+		
+		//** triangle
+			for (int n = 1; n < 7; n++) {
+				for (int m = 1; m < n+1; m++) {
+					System.out.print("*" + " ");
+				}
+				System.out.println();
+			}
 			
 		}
 	}
